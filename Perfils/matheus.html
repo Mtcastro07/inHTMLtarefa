@@ -44,12 +44,16 @@
       </ol>
       <section>
         <h2>Feedbacks</h2>
-        <form action="Feedbacks">
+        <form action="https://formspree.io/f/mwvdzbey" method="POST">
           <label for="Nome">Nome:</label>
-          <input placeholder="Seu nome completo" type="text" />
+          <input
+            placeholder="Seu nome completo"
+            type="text"
+            name="Nome feedback"
+          />
           <br />
           <label for="feedback">Escreva o feedback da pagina:</label>
-          <textarea placeholder="Feedback"></textarea>
+          <textarea placeholder="Feedback" name="Feedback Mensagem"></textarea>
           <br />
           <button type="submit" placeholder="Enviar">Enviar</button>
         </form>
